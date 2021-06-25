@@ -74,6 +74,28 @@ nav .icon-burger .line {
     top: 50px;
 }
 
+/* about us */
+
+.about-us{
+    background-color: #E7E7E7;
+    padding: 20px
+}
+
+.about-header {
+    color: #e1b67f;
+    padding: 0px;
+    text-align: center;
+}
+
+hr {
+    color: #e1b67f;
+}
+.about-text{
+    padding: 20px;
+    font-size: medium;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
