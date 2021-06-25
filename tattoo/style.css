@@ -1,14 +1,3 @@
-body{
-   padding:0px;
-   margin:0px;
-   background-color: #E7E7E7;
-}
-div{
-  display:inline-block;
-  padding:0px;
-  margin-left:0px;
-}
-
 nav {
 	position: fixed;
 	z-index: 10;
@@ -85,103 +74,13 @@ nav .icon-burger .line {
     top: 50px;
 }
 
-/* about us */
 
-
-
-
-/* about us */
-
-.about-us{
-    background-color: #E7E7E7;
-    padding: 20px
-}
-
-.about-header {
-    color: #e1b67f;
-    padding: 0px;
-    text-align: center;
-}
-
-hr {
-    color: #e1b67f;
-}
-.about-text{
-    padding: 20px;
-    font-size: medium;
-}
-
-
-
-/* Tattoo training */
-
-
-
-.about-section{
-    background: url(pic.jpg) no-repeat left;
-    background-size: 55%;
-    background-color: #fdfdfd;
-    overflow: hidden;
-    padding: 100px 0;
-}
-
-.inner-container{
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
-    padding: 150px;
-}
-
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-}
-
-.text{
-    font-size: 13px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-}
-
-.skills{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
-}
-
-@media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
-    }
-}
-
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60px;
-    }
-}
 
 @media screen and (max-width: 768px) {
 
     /* navbar mobile */
-nav {
+
+    nav {
         height: 50px;
     }
 
@@ -228,12 +127,7 @@ nav {
 		opacity: 0;
 	}
     
-	/* about us */
-
-    .column {
-    width: 100%;
-    display: block;
-    }
+	
 }
 
 
