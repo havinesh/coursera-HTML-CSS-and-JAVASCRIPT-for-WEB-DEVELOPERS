@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="icon" href="./img/IMG_1785 copy.PNG" type="image/x-icon">
+    <title>Thank You</title>
+
+    <style>
+        html, body{
+            height: 100%;
+        }
+
+
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .thank-you{
+            height: 90%;
+            width: 100%;
+            left: 50%;
+            top: 20%;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+        @media screen and (max-width: 768px){
+            .thank-you{
+                top: 15%;
+                font-size: small;
+                height: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NavBar -->
+    
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo">
+            <a href="index.html#">
+                <img class="logo-image-ctsg" src="./img/IMG_1785 copy.PNG" alt="">
+                <strong>Custom Tattoo Studio</strong>
+            </a>
+        </div>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="index.html#about-us">About Us</a></li>
+            <li><a href="index.html#artist">Artist</a></li>
+            <li><a href="index.html#tattoos">Tattoos</a></li>
+            <li><a href="index.html#tattoo-training">Tattoo Training</a></li>
+            <li><a href="index.html#contact-us">Contact Us</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    
+    
+
+    <!-- thank you -->
+
+    <div class="thank-you">
+        <h1>Thank you for contacting us. We will get back to you shortly</h1>
+    </div>
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="text-center">
+            <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a><br><br>
+            <div class="social">
+                <a href="https://instagram.com/customtattoostudio04?utm_medium=copy_link"><i
+                        class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="https://m.facebook.com/customtattoostudiogzb/"><i class="icon ion-social-facebook"></i></a>
+    
+            </div>
+            <p class="copyright"> Custom Tattoo Studio © 2021</p>
+        </div>
+    </div>
+</body>
+</html>
