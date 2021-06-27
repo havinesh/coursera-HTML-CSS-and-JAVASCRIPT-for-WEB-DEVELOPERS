@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* breakline */
+
+
+/* navbar */
 nav {
 	position: fixed;
 	z-index: 10;
@@ -18,10 +26,21 @@ nav .logo {
 	font-size: 24px;
 	color: #e1b67f;
 }
+nav .logo a{
+    color: #e1b67f;
+}
+nav .logo a:hover{
+    color: #e1b67f;
+    text-decoration: none;
+}
+
+nav .logo .image {
+    height: 0.002px;
+}
 
 nav .logo-image{
-    width: 46px;
-    height: 46px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
@@ -76,9 +95,15 @@ nav .icon-burger .line {
 
 /* about us */
 
+
+
+
+/* about us */
+
 .about-us{
     background-color: #E7E7E7;
-    padding: 20px
+    padding: 20px;
+    text-align: center;
 }
 
 .about-header {
@@ -93,9 +118,315 @@ hr {
 .about-text{
     padding: 20px;
     font-size: medium;
+    margin: 20px 20px;
 }
 
 
+/* team */
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  
+  box-sizing: border-box;
+}
+
+body{
+  background: #e1b67f;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #E7E7E7;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #e1b67f;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #E7E7E7;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+/* tattoo display */
+
+.tattoo-display {
+    display: flex;
+}
+
+.tattoo-wrapper {
+    background-color: #e7e7e7;
+}
+
+@media screen and (max-width: 768px){
+    .tattoo-display {
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+/* faq */
+
+.box-tattoo{
+   width: 80%;
+   margin: 100px auto;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.box-tattoo .heading-tattoo{
+   background: #e1b67f;
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: black;
+   text-align: center;
+   font-family: "Rubik";
+}
+
+.faqs-tattoo{
+   padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+.details-tattoo{
+   background: #f6f6f6;
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 14px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+.details-tattoo .summary-tattoo{
+   outline: none;
+   font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .box-tattoo{
+        width: 90%;
+    }
+}
+
+/* Tattoo training */
+
+.about-section{
+    background: url(./img/training2.jpeg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #e7e7e7;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+/* contact us */
+
+.col-md-4 a { 
+       color: black;
+}
+
+/* google map 
+.maps-div {
+    float: right;
+}
+
+.google-maps {
+position: relative;
+padding-bottom: 75%; 
+height: 0;
+overflow: hidden;
+max-width: 700px;
+float: center;
+width: 100%;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+
+} */
+
+.google-maps {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.google-maps iframe {
+  padding: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #e1b67f;
+    color: black;
+    padding: 32px;
+    text-align: center;
+  }
+  .footer a {
+    color: black;
+  }
+  .footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+  textarea {
+    resize: none;
+  }
+
+
+
+
+  .social {
+	text-align:center;
+	padding-bottom:25px;
+  }
+  
+  .social > a {
+	font-size:24px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #ccc;
+	margin:0 8px;
+	color:inherit;
+	opacity:0.75;
+  }
+  
+   .social > a:hover {
+	opacity:0.9;
+  }
+
+  .copyright {
+	margin-top:15px;
+	text-align:center;
+	font-size:13px;
+	color:black;
+	margin-bottom:0;
+  }
 
 
 @media screen and (max-width: 768px) {
@@ -103,7 +434,7 @@ hr {
     /* navbar mobile */
 
     nav {
-        height: 50px;
+        height: 65px;
     }
 
 	nav .logo {
@@ -112,6 +443,11 @@ hr {
 		justify-content: center;
         font-size: 25px;
 	}
+
+    .logo-image-ctsg {
+        display: none;
+    }
+
 	nav .links {
 		float: none;
 		position: fixed;
@@ -149,7 +485,18 @@ hr {
 		opacity: 0;
 	}
     
-	
+	/* about us */
+
+    .column {
+    width: 100%;
+    display: block;
+    }
+
+    /* maps mobile */
+
+    .google-maps iframe{
+        padding: 15px;
+    }
 }
 
 
